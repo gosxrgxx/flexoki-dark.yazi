@@ -41,7 +41,6 @@ marker_selected = { fg = "#3AA99F", bg = "#3AA99F" } # cy, cy
 # Tab
 tab_active = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
 tab_inactive = { fg = "#878580", bg = "#282726" } # tx-2, ui
-tab_width = 1
 
 # Count
 count_copied = { fg = "#879A39", bold = true, reversed = true } # gr
