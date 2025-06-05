@@ -50,6 +50,8 @@ border_style = { fg = "#282726" } # ui
 [tabs]
 active = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
 inactive = { fg = "#878580", bg = "#282726" } # tx-2, ui
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
 
 [mode]
 # Normal mode
