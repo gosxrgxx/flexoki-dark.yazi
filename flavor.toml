@@ -21,7 +21,7 @@
 # purple-400  "#8B7EC8" pu
 # magenta-400 "#CE5D97" ma
 
-[manager]
+[mgr]
 cwd = { fg = "#CECDC3", bold = true } # tx
 
 # Hovered
