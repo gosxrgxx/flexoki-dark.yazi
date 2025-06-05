@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pack -a gosxrgxx/flexoki-dark
+ya pkg add gosxrgxx/flexoki-dark
 ```
 
 ## ⚙️ Usage
