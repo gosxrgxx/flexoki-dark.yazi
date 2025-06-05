@@ -38,10 +38,6 @@ marker_cut = { fg = "#D14D41", bg = "#D14D41" } # re, re
 marker_marked = { fg = "#1C6C66", bg = "#1C6C66" } # cy-700, cy-700
 marker_selected = { fg = "#3AA99F", bg = "#3AA99F" } # cy, cy
 
-# Tab
-tab_active = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
-tab_inactive = { fg = "#878580", bg = "#282726" } # tx-2, ui
-
 # Count
 count_copied = { fg = "#879A39", bold = true, reversed = true } # gr
 count_cut = { fg = "#D14D41", bold = true, reversed = true } # re
@@ -50,6 +46,10 @@ count_selected = { fg = "#3AA99F", bold = true, reversed = true } # cy
 # Border
 border_symbol = "│"
 border_style = { fg = "#282726" } # ui
+
+[tabs]
+active = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
+inactive = { fg = "#878580", bg = "#282726" } # tx-2, ui
 
 [mode]
 # Normal mode
