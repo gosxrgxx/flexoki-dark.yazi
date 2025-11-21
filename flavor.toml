@@ -25,7 +25,7 @@
 cwd = { fg = "#CECDC3", bold = true } # tx
 
 # Hovered
-hovered = { bg = "#1C1B1A" } # bg-2
+hovered = { bg = "#403E3C" } # ui-3
 preview_hovered = { underline = true }
 
 # Find
