@@ -21,6 +21,9 @@
 # purple-400  "#8B7EC8" pu
 # magenta-400 "#CE5D97" ma
 
+[app]
+overall = { bg = "#100F0F" } # bg
+
 [mgr]
 cwd = { fg = "#CECDC3", bold = true } # tx
 
@@ -178,7 +181,7 @@ dirs = [
   { name = "Music", text = "", fg = "#3AA99F" }, # cy
   { name = "Pictures", text = "", fg = "#3AA99F" }, # cy
   { name = "Public", text = "", fg = "#3AA99F" }, # cy
-  { name = "Videos", text = "", fg = "#3AA99F" }, # cy
+  { name = "Videos", text = "", fg = "#3AA99F" } # cy
 ]
 conds = [
   # Special files
@@ -194,5 +197,5 @@ conds = [
   # Fallback
   { if = "dir", text = "", fg = "#3AA99F" }, # cy
   { if = "exec", text = "", fg = "#879A39" }, # gr
-  { if = "!dir", text = "", fg = "#878580" }, # tx-2
+  { if = "!dir", text = "", fg = "#878580" } # tx-2
 ]
