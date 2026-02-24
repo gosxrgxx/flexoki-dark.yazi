@@ -45,7 +45,7 @@ border_style = { fg = "#282726" } # ui
 
 [indicator]
 parent = { underline = true }
-current = { bg = "#1C1B1A" } # bg-2
+current = { fg = "#CECDC3", bg = "#282726" } # tx, ui
 preview = { underline = true }
 padding = { open = "█", close = "█" }
 
@@ -104,7 +104,7 @@ btn_no = { fg = "#878580", bg = "#282726" } # tx-2, ui
 border = { fg = "#403E3C" } # ui-3
 title = { fg = "#575653", bold = true } # tx-3
 tbl_col = { fg = "#878580" } # tx-2
-tbl_cell = { bg = "#1C1B1A" } # bg-2
+tbl_cell = { fg = "#CECDC3", bg = "#282726" } # tx, ui
 
 [notify]
 # Notification title
@@ -125,20 +125,20 @@ selected = { bg = "#1C1B1A" } # bg-2
 
 [cmp]
 border = { fg = "#403E3C", bold = true } # ui-3
-active = { fg = "#878580", bg = "#1C1B1A" } # tx-2, bg-2
+active = { fg = "#CECDC3", bg = "#282726" } # tx, ui
 inactive = { fg = "#878580" } # tx-2
 
 [tasks]
 border = { fg = "#403E3C" } # ui-3
 title = { fg = "#575653", bold = true } # tx-3
-hovered = { bg = "#1C1B1A" } # bg-2
+hovered = { fg = "#CECDC3", bg = "#282726" } # tx, ui
 
 [help]
 on = { fg = "#4385BE" } # bl
 run = { fg = "#3AA99F" } # cy
 desc = { fg = "#575653", italic = true } # tx-3
-hovered = { bg = "#1C1B1A" } # bg-2
-footer = { fg = "#CECDC3", bg = "#282726", bold = true } # tx, ui
+hovered = { bg = "#282726" } # ui
+footer = { fg = "#100F0F", bg = "#3AA99F", bold = true } # bg, cy
 
 [filetype]
 rules = [
