@@ -28,8 +28,8 @@ overall = { bg = "#100F0F" } # bg
 cwd = { fg = "#CECDC3", bold = true } # tx
 
 # Find
-find_keyword = { fg = "#AD8301", reversed = true } # ye-2
-find_position = { fg = "#575653", bold = true, italic = true } # tx-3
+find_keyword = { fg = "#3AA99F", reversed = true } # cy
+find_position = { fg = "#3AA99F", bold = true, italic = true } # cy
 
 # Marker
 marker_copied = { fg = "#879A39", bg = "#879A39" } # gr, gr
@@ -89,8 +89,8 @@ progress_error = { bg = "#D14D41" } # re
 [which]
 cols = 3
 mask = { bg = "#1C1B1A" } # bg-2
-cand = { fg = "#D0A215", bold = true } # ye
-rest = { fg = "#D0A215", italic = true } # ye
+cand = { fg = "#3AA99F", bold = true } # cy
+rest = { fg = "#3AA99F", italic = true } # cy
 desc = { fg = "#575653" } # tx-3
 separator = " "
 separator_style = { }
