@@ -87,8 +87,9 @@ progress_normal = { fg = "#3AA99F", bg = "#1C6C66" } # cy, cy-700
 progress_error = { bg = "#D14D41" } # re
 
 [which]
+border = { fg = "#403E3C" } # ui-3
 cols = 3
-mask = { bg = "#1C1B1A" } # bg-2
+mask = { bg = "#100F0F" } # bg
 cand = { fg = "#3AA99F", bold = true } # cy
 rest = { fg = "#3AA99F", italic = true } # cy
 desc = { fg = "#575653" } # tx-3
